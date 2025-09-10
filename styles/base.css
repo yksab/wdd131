@@ -1,0 +1,35 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    border: 0;
+}
+
+#course-title {
+    display: block;
+    background-color: antiquewhite;
+    text-align: center;
+ }
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 203, 224);
+}
+
+a:hover {
+    background: rgb(240, 228, 160);
+    border: white;
+}
+
+main {
+    width: 900px;
+    display: grid;
+}
+
+.highlight {
+	color: navy;
+	font-weight: 700;
+	font-family: hebrew;
+}
+
